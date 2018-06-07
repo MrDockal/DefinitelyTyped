@@ -195,3 +195,5 @@ declare var Peer: {
      */
     new (options: PeerJs.PeerJSOption): PeerJs.Peer;
 };
+export = PeerJs;
+export as namespace PeerJs;
